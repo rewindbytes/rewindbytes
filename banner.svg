@@ -1,5 +1,7 @@
 <svg viewBox="0 0 115 25" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
     <style>
+
         svg text {
         transform-origin: 50% 50%;
         transform: translate(0%, -40%) rotate(180deg);
@@ -30,7 +32,7 @@
         .wave {
         animation: wave 3s linear;
         animation-iteration-count:infinite;
-        fill: #00BFFF;
+        fill: #55a9ff;
         }
 
         .wave:hover {
@@ -38,14 +40,14 @@
         }
 
         .drop:hover {
-        fill: #C9FFE5;
+        fill: #55a9ff;
         }
 
         .drop {
-        fill: #00BFFF;
+        fill: #55a9ff;
         xfill: #99000055;
         animation: drop 8.2s linear infinite normal;
-        stroke: #00BFFF;
+        stroke: #55a9ff;
         stroke-width: 0.5;
         transform: translateY(25px) ;
         transform-box: fill-box;
@@ -116,7 +118,7 @@
         }
         @keyframes underline_move {
         to {
-        transform: translateX(-33px);
+        transform: translateX(-30.8px);
         }}
 
         g.typingUnderline rect {
@@ -130,12 +132,12 @@
     <defs>
         <filter id="goo">
             <feGaussianBlur in="SourceGraphic" stdDeviation="1" result="blur"/>
-            <feColorMatrix in="blur" type="matrix" values="
+            <feColorMatrix in="blur" mode="matrix" values="
            1 0 0 0 0
            0 1 0 0 0
            0 0 1 0 0
            0 0 0 13 -9" result="goo"/>
-            <feBlend in="SourceGraphic" in2="goo"/>
+            <xfeBlend in="SourceGraphic" in2="goo"/>
         </filter>
 
         <path id="wave"
@@ -181,37 +183,38 @@
     <text font-family="Courier New" font-size=".22em" fill="white"
           font-weight="bold" letter-spacing="2" x="13">
         <textPath xlink:href="#nameTyping">
-            Rewind
+            REWIND
         </textPath>
     </text>
 
     <g class="typingUnderline">
-        <rect fill="#FFFFFF" x="69" y="20.5" width="2.5" height="0.4" style="#underlineTyping">
+        <rect fill="#FFFFFF" x="69" y="20.5" width="2.5" height="0.4" xlink:href="#underlineTyping">
             <animate attributeName="visible" from="hidden" to="visible" dur="1s" fill="freeze"/>
         </rect>
     </g>
 
     <path id="descriptionTyping">
         <animate attributeName="d" from="m30,-3 h0" to="m30,-3 h100"
-                 dur="4.8s" begin="0s" fill="freeze"/>
+                 dur="5.8s" begin="0s" fill="freeze"/>
     </path>
 
     <text x="58" font-family="Helvetica" font-size=".12em" fill="white"
           text-anchor="end" alignment-baseline="hanging" font-style="italic">
         <textPath xlink:href="#descriptionTyping">
-            Passionate, Gaming enthusiast, Software Developer, Creative
+            Passionate, Gaming enthusiast, Software Developer &amp;, Creative
         </textPath>
     </text>
 
-    <text x="2" y="12" font-family="Helvetica" font-size=".22em"
+    <text x="6" y="12" font-family="Helvetica" font-size=".22em"
           fill="#AAA" font-weight="bold">
-        Howdy!
+        Hello!
     </text>
 
     <text x="22" y="12" font-family="Helvetica" font-size=".22em"
           fill="#AAA" font-weight="bold">
-        What's up?
+        How's it going?
     </text>
+
 
     <image style="overflow:visible;clip-path:url(#mask);TWFkZUJ5VGFjY2E=;"
            width="4" x="17" y="8.5"
