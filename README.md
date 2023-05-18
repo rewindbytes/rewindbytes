@@ -8,7 +8,7 @@ I'm Luke, I fulfil my interest of helping others by creating software, tools, an
 
 🧠 I spend a lot of my time studying and learning cool and interesting new things.
 
-⚡️ Fun fact... I first started coding when I was 14 in IT class, drawing rectangles in Python, and I started competitive programming in 2023, and I love it! 
+⚡️ Fun fact... I first started coding when I was 14 in IT class, drawing rectangles in Python, and I recently found competitve programming, and I love it! 
 
 
 #
