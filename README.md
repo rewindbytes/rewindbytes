@@ -1,10 +1,6 @@
 <img src="banner.svg"></img>
 
-I'm Luke, I fulfil my interest of helping others by creating software, tools, and API's, and building extraordinary experiences for all.
-
-
-####  A Software Developer with a passion for games!
-
+I'm Luke, I fulfil my interest of helping others by creating software, tools, and API's, and building extraordinary experiences for all. Passionate about games. 
 
 
 #
